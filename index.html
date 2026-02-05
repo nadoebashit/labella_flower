@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labella Flower | Искусство Флористики</title>
+    <meta name="description"
+        content="Премимальные букеты и цветочное оформление в Шымкенте. Labella Flower - когда чувства обретают форму.">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Montserrat:wght@200;300;400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Animation Library (AOS) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="logo.jpg" alt="Labella">
+                <span class="logo-text">Labella<span class="highlight">Flower</span></span>
+            </a>
+            <ul class="nav-menu">
+                <li style="--i:1"><a href="#home" class="nav-link">Главная</a></li>
+                <li style="--i:2"><a href="#collection" class="nav-link">Коллекция</a></li>
+                <li style="--i:3"><a href="#about" class="nav-link">О нас</a></li>
+                <li style="--i:4"><a href="#contacts" class="nav-link">Контакты</a></li>
+                <li style="--i:5"><a href="https://wa.me/77771234567"
+                        class="btn-primary-outline mobile-hide">Связаться</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1500">
+            <span class="hero-subtitle">Шымкент • Сайрамская 167Б</span>
+            <h1 class="hero-title">Цветы как <br><em>Искусство</em></h1>
+            <p class="hero-description">Мы создаем не просто букеты, а эмоции. Авторская флористика для самых важных
+                моментов вашей жизни.</p>
+            <div class="hero-buttons">
+                <a href="https://wa.me/77771234567" class="btn-primary">Заказать букет</a>
+                <a href="#collection" class="btn-secondary">Смотреть каталог</a>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <span>Листайте вниз</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </header>
+
+    <!-- Benefits / Features -->
+    <section class="features section-padding">
+        <div class="container grid-3">
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="0">
+                <div class="icon-box"><i class="fas fa-shipping-fast"></i></div>
+                <h3>Бережная Доставка</h3>
+                <p>Доставим ваш букет в идеальном состоянии в любую точку города.</p>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon-box"><i class="fas fa-leaf"></i></div>
+                <h3>Только Свежие</h3>
+                <p>Ежедневные поставки самых свежих цветов премиум класса.</p>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box"><i class="fas fa-magic"></i></div>
+                <h3>Авторский Дизайн</h3>
+                <p>Уникальные композиции, которые невозможно повторить.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collection / Gallery -->
+    <section id="collection" class="collection section-padding">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-subtitle">Наши работы</span>
+                <h2 class="section-title">Избранная Коллекция</h2>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item item-large" data-aos="fade-in">
+                    <img src="https://images.unsplash.com/photo-1562690868-60bbe7293e94?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80"
+                        alt="Rose Bouquet">
+                    <div class="overlay">
+                        <h3>Розовая Нежность</h3>
+                        <p>Розы и Эустома</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-in" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1591886960571-74d43a9d4166?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                        alt="Tulips">
+                    <div class="overlay">
+                        <h3>Весеннее Утро</h3>
+                        <p>Тюльпаны</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-in" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1582794543139-8ac92a900275?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                        alt="Peonies">
+                    <div class="overlay">
+                        <h3>Королевский Пион</h3>
+                        <p>Пионы</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-in" data-aos-delay="300">
+                    <img src="https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                        alt="Mixed">
+                    <div class="overlay">
+                        <h3>Летний Сон</h3>
+                        <p>Микс композиция</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="https://instagram.com" class="btn-text">Смотреть больше в Instagram <i
+                        class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container grid-2 align-center">
+            <div class="about-image" data-aos="fade-right">
+                <img src="https://images.unsplash.com/photo-1594411326442-749e7cf93010?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+                    alt="Florist at work">
+                <div class="experience-badge">
+                    <span class="years">100%</span>
+                    <span class="text">Любви</span>
+                </div>
+            </div>
+            <div class="about-content" data-aos="fade-left">
+                <span class="section-subtitle">О Студии</span>
+                <h2 class="section-title">Цветы — это язык, который понимают все</h2>
+                <p>В студии <strong>Labella Flower</strong> мы верим, что каждый цветок имеет значение. Мы находимся в
+                    сердце Шымкента и каждый день создаем маленькие чудеса для вас.</p>
+                <p>Наш адрес: <strong>ул. Сайрамская, 167Б</strong>. Приходите к нам за вдохновением или закажите
+                    доставку, чтобы порадовать любимых на расстоянии.</p>
+
+                <div class="quote-box">
+                    <p>«Красота спасет мир, а цветы — душу.»</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container text-center">
+            <h2 data-aos="fade-up">Готовы сделать заказ?</h2>
+            <p data-aos="fade-up" data-aos-delay="100">Напишите нам в WhatsApp, мы поможем подобрать идеальный букет.
+            </p>
+            <a href="https://wa.me/77771234567" class="btn-primary big-btn" data-aos="zoom-in" data-aos-delay="200">
+                <i class="fab fa-whatsapp"></i> Написать сейчас
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacts" class="footer">
+        <div class="container">
+            <div class="footer-top grid-4">
+                <div class="footer-widget">
+                    <h3>Labella Flower</h3>
+                    <p>Студия авторской флористики в Шымкенте. Дарим эмоции с каждым лепестком.</p>
+                </div>
+                <div class="footer-widget">
+                    <h3>Навигация</h3>
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#collection">Каталог</a></li>
+                        <li><a href="#about">О нас</a></li>
+                    </ul>
+                </div>
+                <div class="footer-widget">
+                    <h3>Контакты</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> г. Шымкент, Сайрамская, 167Б</p>
+                    <p><i class="fas fa-phone"></i> +7 (777) 123-45-67</p>
+                    <a href="https://2gis.kz/shymkent/search/Сайрамская%20167Б" target="_blank"
+                        class="link-2gis">Показать на 2GIS</a>
+                </div>
+                <div class="footer-widget">
+                    <h3>Мы в соцсетях</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">&copy; 2026 Labella Flower. Design by Antigravity.</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            offset: 100,
+            duration: 1000,
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', function () {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile Menu
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
